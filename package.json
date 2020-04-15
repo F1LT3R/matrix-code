@@ -1,6 +1,6 @@
 {
   "name": "matrix-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🐰 Make your CLI rain like the 1999 film \"The Matrix\".",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const path = require('path');
 const ansi = require('ansi');
 const color = require('color');
 const cursor = ansi(process.stdout);
@@ -138,7 +139,7 @@ const strands = Strands(20);
 
 (async () => {
 	// clear();
-	img = await loadPixels('./white-rabbit.jpg');
+	img = await loadPixels(path.join(__dirname, 'white-rabbit.jpg'));
 	imgWidth = img.shape[0];
 	imgHeight = img.shape[1];
 
