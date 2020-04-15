@@ -1,0 +1,40 @@
+{
+  "name": "matrix-code",
+  "version": "1.0.0",
+  "description": "🐰 Make your CLI rain like the 1999 film \"The Matrix\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"matrix": "rain.js"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/f1lt3r/matrix-rain.git"
+  },
+  "keywords": [
+    "matrix",
+    "rain",
+    "code",
+    "film",
+    "1999",
+    "cli",
+    "terminal",
+    "🐰"
+  ],
+  "author": "F1LT3R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f1lt3r/matrix-rain/issues"
+  },
+  "homepage": "https://github.com/f1lt3r/matrix-rain#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "ansi-colors": "^4.1.1",
+    "chalk": "^4.0.0",
+    "cli-cursor": "^3.1.0",
+    "color": "^3.1.2",
+    "get-pixels": "^3.3.2"
+  }
+}
